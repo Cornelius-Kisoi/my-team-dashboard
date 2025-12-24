@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Cornelius Developer</h1>
+        <nav>
+            <button id="theme-btn">Switch Mode</button>
+        </nav>
+    </header>
+    <main>
+        <div class="info">
+            <h2>Full Stack Apprentice</h2>
+            <p>Learning web development with Gemini 3</p>
+            <a href="https://github.com/Cornelius-Kisoi" id="contact-link">Check me on GitHub </a>
+        </div>
+        <input type="text" id="search-bar" placeholder="Search by name.........">
+        <div id="team-container"></div>
+
+
+         <div id="contact-section">
+            <h3>Send me a message!</h3>
+            <label for="user-name">Name: </label>
+            <input type="text" id="user-name" placeholder="Your Name">
+            <label for="user-mesage">Message to us: </label>
+            <textarea name="message" id="user-message" placeholder="Message....."></textarea>
+            <button id="submit-btn">Send</button>
+            <p id="form-status"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
